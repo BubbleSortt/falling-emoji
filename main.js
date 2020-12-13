@@ -69,7 +69,7 @@ function renderEmoji() {
 
   setTimeout(() => {
     currItem = document.querySelector(`span[id='${id}']`)
-    currItem.style.top = '100%';
+    currItem.style.top = '110%';
   }, 100)
 
 
