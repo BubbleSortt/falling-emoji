@@ -3,10 +3,14 @@
 }
 
 body {
-    overflow: hidden;
     background-color: #e0e0e0;
     font-family: Roboto, sans-serif;
+    overflow: hidden;
+}
+
+.container {
     height: 100vh;
+    overflow: hidden;
 }
 
 .menu {
@@ -35,6 +39,7 @@ body {
     border-bottom: 1px solid #000;
     color: #6A6A6A;
     font-size: 16px;
+    border-radius: 0;
 }
 
 .label {

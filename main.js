@@ -2,6 +2,7 @@ let ALL_EMOJI;
 const buttonStart = document.querySelector('.start');
 const buttonStop = document.querySelector('.stop');
 const inputField = document.querySelector('.input');
+const container = document.querySelector('.container');
 buttonStart.addEventListener('click', startRender);
 buttonStop.addEventListener('click', stopRender);
 let id = 0;
@@ -61,7 +62,7 @@ function renderEmoji() {
   `)
 
 
-  document.body.append(newEmoji);
+  container.append(newEmoji);
   //console.log(transition)
 
   let currItem;
@@ -69,7 +70,7 @@ function renderEmoji() {
 
   setTimeout(() => {
     currItem = document.querySelector(`span[id='${id}']`)
-    currItem.style.top = '130%';
+    currItem.style.top = '100%';
   }, 100)
 
 
